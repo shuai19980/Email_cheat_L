@@ -16,10 +16,10 @@ class sendmail:
         err = 0
         Success = 0
         #打开邮箱.txt
-        f=open("./file/邮箱.txt", "rt", encoding ='utf-8', errors='ignore')
+        f=open("./file/邮箱账号.txt", "rt", encoding ='utf-8', errors='ignore')
 
         #打开发送的邮件内容.html
-        html=open("./file/邮件.html", "rt", encoding ='utf-8', errors='ignore')
+        html=open("./file/邮件内容.html", "rt", encoding ='utf-8', errors='ignore')
         mailhtml = html.read()
 
         for i in f:
