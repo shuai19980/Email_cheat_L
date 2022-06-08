@@ -1,4 +1,4 @@
-# Email-cheat-L
+# Email_cheat_L
 ### 项目主要功能:
   1.邮件伪造  
   2.批量邮件
