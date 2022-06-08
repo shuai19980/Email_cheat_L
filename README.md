@@ -22,9 +22,12 @@
 这里以163邮箱举例:  
 ![](images/授权码1.jpg)  
 ![](images/授权码2.jpg)  
-启动  
-    执行命令:
+启动
+    
+     执行命令:
         python3 main.py
+  
+   
 效果  
 企业邮箱:  
 ![](images/企业邮箱.jpg)
