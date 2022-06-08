@@ -5,4 +5,10 @@
   
 可以进行批量发送邮件进行钓鱼
 
-
+文件结构如下:
+  core
+    --sendmail.py       //主要发送文件
+  file
+    --邮箱.txt
+    --邮箱内容.html
+  main.py
