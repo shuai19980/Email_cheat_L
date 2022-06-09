@@ -10,16 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/enclosure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/mailhtml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1Day.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Email cheat-L1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/sendmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="新增附件功能">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/使用方法1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/使用方法1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/新增附件.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/新增附件.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -73,8 +68,16 @@
       <workItem from="1654678007999" duration="645000" />
       <workItem from="1654679390910" duration="284000" />
       <workItem from="1654679692333" duration="221000" />
-      <workItem from="1654738512446" duration="14438000" />
+      <workItem from="1654738512446" duration="15575000" />
     </task>
+    <task id="LOCAL-00001" summary="新增附件功能">
+      <created>1654755040768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654755040768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +95,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增附件功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增附件功能" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1654739026432">
       <screen x="0" y="0" width="1920" height="1032" />
@@ -105,6 +112,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1654679912826" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1654755054502">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1654755054502" />
     <state x="639" y="302" key="git4idea.merge.GitPullDialog" timestamp="1654738814306">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
