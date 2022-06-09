@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="新增附件功能">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/使用方法1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/使用方法1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/新增附件.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/新增附件.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="新增联系方式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,7 +64,7 @@
       <workItem from="1654678007999" duration="645000" />
       <workItem from="1654679390910" duration="284000" />
       <workItem from="1654679692333" duration="221000" />
-      <workItem from="1654738512446" duration="15575000" />
+      <workItem from="1654738512446" duration="15889000" />
     </task>
     <task id="LOCAL-00001" summary="新增附件功能">
       <created>1654755040768</created>
@@ -77,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654755040768</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增附件功能">
+      <created>1654756190752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654756190752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增联系方式">
+      <created>1654756401343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654756401343</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增附件功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增附件功能" />
+    <MESSAGE value="新增联系方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增联系方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1654739026432">
@@ -112,14 +123,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1654679912826" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1654755054502">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1654756409179">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1654755054502" />
-    <state x="639" y="302" key="git4idea.merge.GitPullDialog" timestamp="1654738814306">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1654756409179" />
+    <state x="639" y="302" key="git4idea.merge.GitPullDialog" timestamp="1654756159148">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="639" y="302" key="git4idea.merge.GitPullDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1654738814306" />
+    <state x="639" y="302" key="git4idea.merge.GitPullDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1654756159148" />
     <state x="722" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1654678574217">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
