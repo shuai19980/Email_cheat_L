@@ -7,9 +7,6 @@ from email.header import Header
 from core.enclosure import enclosure
 from core.mailhtml import mailhtmltxt
 
-# 创建复合邮件对象
-message = MIMEMultipart()
-
 class sendmail:
     def sendmail(mail_host,mail_user,mail_pass,header,subject,enclosurepath):
         mail_host=mail_host
@@ -25,6 +22,9 @@ class sendmail:
         html=open("./file/邮件内容.html", "rt", encoding ='utf-8', errors='ignore')
         mailhtml = html.read()
         for i in f:
+            # 创建复合邮件对象
+            message = MIMEMultipart()
+
             #每个换行符为一个
             c=i.split('\n\n')[0]
 
@@ -32,24 +32,26 @@ class sendmail:
             receivers = [c]
 
             #判断是否为第一次发送，如果是则添加message内容，如果不是则不添加
-            if number == 1:
+            #if number == 1:
 
-                #发送的html
-                mailhtmltxt.addmailhtml(mailhtml,message)
+            #发送的html
+            mailhtmltxt.addmailhtml(mailhtml,message)
 
 
-                #如果附件不为空则,进行附件发送操作
-                if len(enclosurepath) != 0:
-                    #发送附件
-                    enclosure.addenclosure(enclosurepath,message)
+            #如果附件不为空则,进行附件发送操作
+            if len(enclosurepath) != 0:
+                #发送附件
+                enclosure.addenclosure(enclosurepath,message)
 
-                    #需要伪造的邮箱
-                    message['From'] = Header(header, 'utf-8')
+            #需要伪造的邮箱
+            message['From'] = Header(header, 'utf-8')
+            message['To'] = Header(receivers[0], 'utf-8')
 
-                    subject = subject
-                    message['Subject'] = Header(subject, 'utf-8')
-                    number += 1
-            message['To'] =  Header(receivers[0], 'utf-8')
+            subject = subject
+            message['Subject'] = Header(subject, 'utf-8')
+            number += 1
+
+
 
             try:
                 smtpObj = smtplib.SMTP()
@@ -60,8 +62,7 @@ class sendmail:
                 print ("Success")
                 Success +=1
             except smtplib.SMTPException:
-                #print ("Error")
-                print("发送成功")
+                print ("Error")
                 err += 1
         f.close()
         html.close()

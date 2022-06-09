@@ -27,5 +27,3 @@ enclosurepath = ['./file/测试.doc','./file/测试.xlsx','./file/测试.pdf','.
 
 #调用sendmail发送邮件
 sendmail.sendmail(mail_host,mail_user,mail_pass,mailheader,subject,enclosurepath)
-
-#111
