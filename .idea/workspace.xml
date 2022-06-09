@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="新增联系方式" />
+    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="新增联系方式">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,31 +28,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2AHsjlQLXNC8ha0v8uOQXTcwkha" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.gitee" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\xyaj_\AppData\Roaming\Subversion</configuration>
   </component>
@@ -65,6 +59,7 @@
       <workItem from="1654679390910" duration="284000" />
       <workItem from="1654679692333" duration="221000" />
       <workItem from="1654738512446" duration="15889000" />
+      <workItem from="1654761274562" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="新增附件功能">
       <created>1654755040768</created>
@@ -91,7 +86,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -103,41 +98,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增附件功能" />
     <MESSAGE value="新增联系方式" />
     <option name="LAST_COMMIT_MESSAGE" value="新增联系方式" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="90" key="#Project_Structure" timestamp="1654739026432">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1654739026432" />
-    <state x="740" y="270" key="FileChooserDialogImpl" timestamp="1654738918796">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="740" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1654738918796" />
-    <state x="461" y="160" key="SettingsEditor" timestamp="1654679912826">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1654679912826" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1654756409179">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1654756409179" />
-    <state x="639" y="302" key="git4idea.merge.GitPullDialog" timestamp="1654756159148">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="639" y="302" key="git4idea.merge.GitPullDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1654756159148" />
-    <state x="722" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1654678574217">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="722" y="415" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1654678574217" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1654745927437">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1654745927437" />
   </component>
 </project>
