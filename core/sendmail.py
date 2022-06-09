@@ -45,12 +45,11 @@ class sendmail:
 
                     #需要伪造的邮箱
                     message['From'] = Header(header, 'utf-8')
-                    message['To'] =  Header(receivers[0], 'utf-8')
 
                     subject = subject
                     message['Subject'] = Header(subject, 'utf-8')
                     number += 1
-
+            message['To'] =  Header(receivers[0], 'utf-8')
 
             try:
                 smtpObj = smtplib.SMTP()
