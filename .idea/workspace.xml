@@ -13,9 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="test">
+    <list default="true" id="91ee3eb0-c1ab-4a2c-9207-9f22ae6b7e46" name="Default Changelist" comment="修复bug">
+      <change afterPath="$PROJECT_DIR$/core/getfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/linux_or_windows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/sendmail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/enclosure.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/enclosure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/邮箱账号.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/邮箱账号.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/A--ME   IDEA/pycharm/Email_cheat_L",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +68,11 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\A--ME   IDEA\pycharm\Email_cheat_L" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\xyaj_\AppData\Roaming\Subversion</configuration>
@@ -79,7 +88,9 @@
       <workItem from="1654679390910" duration="284000" />
       <workItem from="1654679692333" duration="221000" />
       <workItem from="1654738512446" duration="15889000" />
-      <workItem from="1654761274562" duration="2413000" />
+      <workItem from="1654761274562" duration="3181000" />
+      <workItem from="1654850194206" duration="478000" />
+      <workItem from="1654850924726" duration="4592000" />
     </task>
     <task id="LOCAL-00001" summary="新增附件功能">
       <created>1654755040768</created>
@@ -109,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654761327954</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修复bug">
+      <created>1654763723813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654763723813</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +148,7 @@
     <MESSAGE value="新增附件功能" />
     <MESSAGE value="新增联系方式" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="修复bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复bug" />
   </component>
 </project>
