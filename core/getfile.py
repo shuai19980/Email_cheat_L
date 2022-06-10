@@ -7,7 +7,6 @@ from core.linux_or_windows import linux_or_windows
 class getfile:
     def getfile(httpurl,filename):
         if linux_or_windows.linux_or_windows(None) == "windows":
-            print("成功")
             filepath = 'C:/Windows/Temp/'+filename
 
         elif linux_or_windows.linux_or_windows(None) == "linux":
